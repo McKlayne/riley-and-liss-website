@@ -276,24 +276,34 @@ export default function Home() {
             </div>
           </section>
 
-          {/* GoFundMe Section */}
+          {/* Donation Section */}
           <section className="bg-[#F5EDE5] rounded-lg p-6 mb-8">
             <h2 className="text-xl font-bold text-[#8B5E3C] mb-4">Other Ways to Help</h2>
-            <p className="mb-4 leading-relaxed">
-              If you'd like to support our journey to parenthood but can't participate as a gestational carrier, a
-              GoFundMe has been setup for us to help cover the medical and legal costs associated with surrogacy and
-              IVF.
+            <p className="mb-6 leading-relaxed">
+              If you'd like to support our journey to parenthood but can't participate as a gestational carrier, you can
+              help us cover the medical and legal costs associated with surrogacy and IVF through GoFundMe or Venmo.
             </p>
-            <div className="flex justify-center">
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
                 href="https://gofund.me/49b0366ae"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#8B5E3C] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#6B4A2C] transition-colors"
+                className="inline-block bg-[#8B5E3C] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#6B4A2C] transition-colors text-center"
               >
-                Support Our Journey
+                Support via GoFundMe
+              </a>
+              <a
+                href="https://venmo.com/u/Liss_Whiting"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#3D95CE] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#2A7BB8] transition-colors text-center"
+              >
+                Support via Venmo
               </a>
             </div>
+            <p className="text-sm text-[#8B5E3C]/70 mt-4 text-center">
+              Venmo: @Liss_Whiting (verification code: 2124)
+            </p>
           </section>
 
           {/* Footer Contact */}
